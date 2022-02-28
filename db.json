@@ -1,0 +1,11 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "jhondoe@rocketmail.com",
+      "phone": "555-555-5555",
+      "category": "Family"
+    }
+  ]
+}
