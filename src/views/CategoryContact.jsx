@@ -12,11 +12,7 @@ function CategoryContact() {
       dispatch({ type: "LOADING", payload: false });
     }, 2000);
   }, [dispatch]);
-  return (
-    <>
-      loading ? <p>loading...</p> :<p>CategoryContact</p>;
-    </>
-  );
+  return <>{loading ? <p>loading...</p> : <p>CategoryContact</p>}</>;
 }
 
 export default CategoryContact;
