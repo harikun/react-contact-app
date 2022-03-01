@@ -13,3 +13,5 @@ const loadingReducer = (state = initialState, action) => {
       return state;
   }
 };
+
+export default loadingReducer;
