@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<ContactApps />} />
-        <Route path="/category" element={<CategoryContact />} />
-        <Route path="/detail" element={<DetailContact />} />
+        <Route path="/:category" element={<CategoryContact />} />
+        {/* <Route path="/detail" element={<DetailContact />} /> */}
       </Routes>
     </>
   );
